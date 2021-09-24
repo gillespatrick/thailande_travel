@@ -51,8 +51,10 @@ class MyApp extends StatelessWidget {
     Widget textSection = Container(
       padding: const EdgeInsets.fromLTRB(30, 0, 30, 0),
       child: const Text(
-        '''La Thaïlande, en forme longue le Royaume de Thaïlande, est un pays d'Asie du Sud-Est dont le territoire couvre 514 000 km2. Avant 1939, il s'appelait le Royaume de Siam. Il est bordé à l'ouest par la Birmanie, au sud par la Malaisie, à l'est par le Cambodge et au nord-est par le Laos. C'est une monarchie constitutionnelle depuis 1932.
-           Sa capitale est Krung Thep, anciennement appelée Bangkok. La langue officielle est le thaï et la monnaie le baht.''',
+        '''
+        Thailand, in long form the Kingdom of Thailand, is a country in Southeast Asia whose territory covers 514,000 km2. Before 1939, it was called the Kingdom of Siam. It is bordered to the west by Burma, to the south by Malaysia, to the east by Cambodia and to the northeast by Laos. It has been a constitutional monarchy since 1932.
+        Its capital is Krung Thep, formerly called Bangkok. The official language is Thai and the currency is Baht. ''',
+
         softWrap: true,
       ),
     );
@@ -82,7 +84,7 @@ class MyApp extends StatelessWidget {
                 const Icon(Icons.airplanemode_active, color: Colors.cyan),
                 const SizedBox(height: 5),
                 Text(
-                  'Vols'.toUpperCase(),
+                  'Plane'.toUpperCase(),
                   style: TextStyle(color: Colors.cyan),
                 )
               ],
@@ -95,7 +97,7 @@ class MyApp extends StatelessWidget {
                 const Icon(Icons.drive_eta, color: Colors.cyan),
                 const SizedBox(height: 5),
                 Text(
-                  'Voiture'.toUpperCase(),
+                  'Car'.toUpperCase(),
                   style: TextStyle(color: Colors.cyan),
                 )
               ],
@@ -113,7 +115,7 @@ class MyApp extends StatelessWidget {
           borderRadius: BorderRadius.all(Radius.circular(30)),
         ),
       ),
-      child: const Text('Voir plus de logements'),
+      child: const Text('More Rooms'),
       onPressed: () {},
     );
 
@@ -125,7 +127,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Voyage Thailande"),
+          title: const Text("Travel To Thailande"),
           backgroundColor: Colors.cyan,
           leading: IconButton(
             icon: const Icon(

@@ -1,16 +1,18 @@
-# thailande_travel
+# TRAVEL TO THAILANG
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Our Goal
+we learn to design user interfaces for Flutter applications.
 
-A few resources to get you started if this is your first Flutter project:
+## What you will create
+We create a design of a travel app for Thailand
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## My Work
+* Create Stateless Widget
+* Use the containers
+* How to use Column and Rows 
+* How to add the Icons
+* How to style the Text Widget
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
